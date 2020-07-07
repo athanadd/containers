@@ -16,5 +16,3 @@ To build the containers use the command:
 $ docker build - < Dockerfile
 
 For more information you can refer to the official [Docker website](https://docs.docker.com/engine/reference/commandline/build)
-
-Let me know if you need a relevant container that is not listed here and I will look into that.
