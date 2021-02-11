@@ -17,8 +17,8 @@ RUN apt-get update && \
 	
 RUN mkdir -p /installations
 WORKDIR /installations
-RUN wget https://mirror.oxfordnanoportal.com/software/analysis/ont-guppy-cpu_2.1.3_linux64.tar.gz
-RUN tar -zxf ./ont-guppy-cpu_2.1.3_linux64.tar.gz
+RUN wget https://mirror.oxfordnanoportal.com/software/analysis/ont-guppy-cpu_4.2.2_linux64.tar.gz
+RUN tar -zxf ./ont-guppy-cpu_4.2.2_linux64.tar.gz
 ENV PATH="/installations/ont-guppy-cpu/bin/:${PATH}"
 
 
